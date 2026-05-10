@@ -1,0 +1,731 @@
+make  install-recursive
+Making install in compat
+make  install-am
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+Making install in doc
+make[3]: Nothing to be done for `install-exec-am'.
+ ../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/share/doc/vlc'
+ /usr/bin/install -c -m 644 bugreport-howto.txt fortunes.txt intf-vcd.txt '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/share/doc/vlc'
+ ../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/share/man/man1'
+ /usr/bin/install -c -m 644 vlc.1 vlc-wrapper.1 '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/share/man/man1'
+ ../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/share/doc/vlc'
+ ../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/share/doc/vlc/libvlc'
+ /usr/bin/install -c -m 644  libvlc/gtk_player.c libvlc/libvlc_DVD_ripper.c libvlc/vlc-thumb.c libvlc/wx_player.cpp '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/share/doc/vlc/libvlc'
+ ../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/share/doc/vlc/libvlc/QtPlayer'
+ /usr/bin/install -c -m 644  libvlc/QtPlayer/LICENSE libvlc/QtPlayer/main.cpp libvlc/QtPlayer/player.cpp libvlc/QtPlayer/player.h libvlc/QtPlayer/QtVLC.pro '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/share/doc/vlc/libvlc/QtPlayer'
+Making install in po
+if test "vlc" = "gettext-tools"; then \
+	  ../autotools/install-sh -c -d /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/share/gettext/po; \
+	  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+	    /usr/bin/install -c -m 644 ./$file \
+			    /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/share/gettext/po/$file; \
+	  done; \
+	  for file in Makevars; do \
+	    rm -f /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/share/gettext/po/$file; \
+	  done; \
+	else \
+	  : ; \
+	fi
+Making install in share
+make[3]: Nothing to be done for `install-exec-am'.
+ ../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/share/applications'
+ /usr/bin/install -c -m 644 vlc.desktop '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/share/applications'
+ ../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/share/icons/hicolor/128x128/apps'
+ /usr/bin/install -c -m 644 icons/128x128/vlc.png icons/128x128/vlc-xmas.png '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/share/icons/hicolor/128x128/apps'
+ ../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/share/icons/hicolor/16x16/apps'
+ /usr/bin/install -c -m 644 icons/16x16/vlc.png icons/16x16/vlc.xpm '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/share/icons/hicolor/16x16/apps'
+ ../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/share/icons/hicolor/256x256/apps'
+ /usr/bin/install -c -m 644 icons/256x256/vlc.png '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/share/icons/hicolor/256x256/apps'
+ ../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/share/icons/hicolor/32x32/apps'
+ /usr/bin/install -c -m 644 icons/32x32/vlc.png icons/32x32/vlc.xpm icons/32x32/vlc-xmas.xpm '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/share/icons/hicolor/32x32/apps'
+ ../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/share/icons/hicolor/48x48/apps'
+ /usr/bin/install -c -m 644 icons/48x48/vlc.png icons/48x48/vlc-xmas.png '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/share/icons/hicolor/48x48/apps'
+ ../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/share/vlc'
+ /usr/bin/install -c -m 644 icons/vlc.ico '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/share/vlc'
+ ../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/share/vlc'
+ ../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/share/vlc/utils/'
+ /usr/bin/install -c utils/gnome-vlc-default.sh utils/audio-vlc-default.sh utils/video-vlc-default.sh '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/share/vlc/utils/'
+ ../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/share/vlc'
+ ../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/share/vlc/osdmenu'
+ /usr/bin/install -c -m 644  osdmenu/default.cfg '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/share/vlc/osdmenu'
+ ../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/share/vlc/osdmenu/default/selected'
+ /usr/bin/install -c -m 644  osdmenu/default/selected/bw.png osdmenu/default/selected/next.png osdmenu/default/selected/play_pause.png osdmenu/default/selected/fw.png osdmenu/default/selected/stop.png osdmenu/default/selected/previous.png osdmenu/default/selected/esc.png osdmenu/default/selected/volume.png '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/share/vlc/osdmenu/default/selected'
+ ../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/share/vlc/osdmenu/default/volume'
+ /usr/bin/install -c -m 644  osdmenu/default/volume/volume_00.png osdmenu/default/volume/volume_01.png osdmenu/default/volume/volume_02.png osdmenu/default/volume/volume_03.png osdmenu/default/volume/volume_04.png osdmenu/default/volume/volume_05.png osdmenu/default/volume/volume_06.png osdmenu/default/volume/volume_07.png osdmenu/default/volume/volume_08.png osdmenu/default/volume/volume_09.png osdmenu/default/volume/volume_10.png '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/share/vlc/osdmenu/default/volume'
+ ../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/share/vlc/osdmenu/default/selection'
+ /usr/bin/install -c -m 644  osdmenu/default/selection/bw.png osdmenu/default/selection/esc.png osdmenu/default/selection/fw.png osdmenu/default/selection/volume.png osdmenu/default/selection/next.png osdmenu/default/selection/play_pause.png osdmenu/default/selection/previous.png osdmenu/default/selection/stop.png '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/share/vlc/osdmenu/default/selection'
+ ../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/share/vlc/osdmenu/default'
+ /usr/bin/install -c -m 644  osdmenu/default/unselected.png '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/share/vlc/osdmenu/default'
+Making install in src
+rm -f -- revision.tmp
+if ! git \
+			--git-dir="../.git/" describe \
+			--tags --long --match '?.*.*' --always; then \
+		cat ./revision.txt ; \
+	fi > revision.tmp
+fatal: Not a git repository: '../.git/'
+if diff revision.tmp ./revision.txt >/dev/null 2>&1; then \
+		rm -f -- revision.tmp; \
+	else \
+		mv -f -- revision.tmp ./revision.txt; \
+	fi
+make  install-recursive
+Making install in .
+ ../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libvlccore.la '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib'
+libtool: install: /usr/bin/install -c .libs/libvlccore.5.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/libvlccore.5.dylib
+libtool: install: (cd /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib && { ln -s -f libvlccore.5.dylib libvlccore.dylib || { rm -f libvlccore.dylib && ln -s libvlccore.5.dylib libvlccore.dylib; }; })
+libtool: install: /usr/bin/install -c .libs/libvlccore.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/libvlccore.la
+ ../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/include/vlc/plugins'
+ /usr/bin/install -c -m 644 ../include/vlc_about.h '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/include/vlc/plugins'
+ ../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/pkgconfig'
+ /usr/bin/install -c -m 644 vlc-plugin.pc '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/pkgconfig'
+ ../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/include/vlc/plugins'
+ /usr/bin/install -c -m 644 ../include/vlc_access.h ../include/vlc_acl.h ../include/vlc_aout.h ../include/vlc_aout_intf.h ../include/vlc_aout_mixer.h ../include/vlc_arrays.h ../include/vlc_art_finder.h ../include/vlc_atomic.h ../include/vlc_avcodec.h ../include/vlc_bits.h ../include/vlc_block.h ../include/vlc_block_helper.h ../include/vlc_charset.h ../include/vlc_codec.h ../include/vlc_common.h ../include/vlc_config.h ../include/vlc_config_cat.h ../include/vlc_configuration.h ../include/vlc_cpu.h ../include/vlc_dialog.h ../include/vlc_demux.h ../include/vlc_epg.h ../include/vlc_es.h ../include/vlc_es_out.h ../include/vlc_events.h ../include/vlc_filter.h ../include/vlc_fourcc.h ../include/vlc_fs.h ../include/vlc_gcrypt.h ../include/vlc_opengl.h ../include/vlc_http.h ../include/vlc_httpd.h ../include/vlc_image.h ../include/vlc_inhibit.h ../include/vlc_input.h ../include/vlc_input_item.h ../include/vlc_keys.h ../include/vlc_main.h ../include/vlc_md5.h ../include/vlc_messages.h '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/include/vlc/plugins'
+ /usr/bin/install -c -m 644 ../include/vlc_meta.h ../include/vlc_media_library.h ../include/vlc_modules.h ../include/vlc_mouse.h ../include/vlc_mtime.h ../include/vlc_network.h ../include/vlc_objects.h ../include/vlc_picture.h ../include/vlc_picture_fifo.h ../include/vlc_picture_pool.h ../include/vlc_playlist.h ../include/vlc_plugin.h ../include/vlc_probe.h ../include/vlc_rand.h ../include/vlc_services_discovery.h ../include/vlc_sql.h ../include/vlc_sout.h ../include/vlc_spu.h ../include/vlc_stream.h ../include/vlc_strings.h ../include/vlc_subpicture.h ../include/vlc_text_style.h ../include/vlc_threads.h ../include/vlc_tls.h ../include/vlc_url.h ../include/vlc_variables.h ../include/vlc_vlm.h ../include/vlc_video_splitter.h ../include/vlc_vout.h ../include/vlc_vout_display.h ../include/vlc_vout_osd.h ../include/vlc_vout_window.h ../include/vlc_xml.h ../include/vlc_xlib.h '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/include/vlc/plugins'
+Making install in test
+make[5]: Nothing to be done for `install-exec-am'.
+make[5]: Nothing to be done for `install-data-am'.
+Making install in modules
+Making install in access
+make  install-recursive
+Making install in mms
+make  install-am
+make[7]: Nothing to be done for `install-exec-am'.
+ ../../../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/access'
+ /bin/sh ../../../libtool   --mode=install /usr/bin/install -c   libaccess_mms_plugin.la '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/access'
+libtool: install: /usr/bin/install -c .libs/libaccess_mms_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libaccess_mms_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libaccess_mms_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libaccess_mms_plugin.la
+Making install in rtp
+make  install-am
+make[7]: Nothing to be done for `install-exec-am'.
+ ../../../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/access'
+ /bin/sh ../../../libtool   --mode=install /usr/bin/install -c   librtp_plugin.la '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/access'
+libtool: install: /usr/bin/install -c .libs/librtp_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/librtp_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/librtp_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/librtp_plugin.la
+Making install in rtsp
+make  install-am
+make[7]: Nothing to be done for `install-exec-am'.
+Making install in vcd
+make  install-am
+make[7]: Nothing to be done for `install-exec-am'.
+Making install in vcdx
+make  install-am
+make[7]: Nothing to be done for `install-exec-am'.
+Making install in screen
+make  install-am
+make[7]: Nothing to be done for `install-exec-am'.
+Making install in bd
+make  install-am
+make[7]: Nothing to be done for `install-exec-am'.
+ ../../../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/access'
+ /bin/sh ../../../libtool   --mode=install /usr/bin/install -c   libaccess_bd_plugin.la '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/access'
+libtool: install: /usr/bin/install -c .libs/libaccess_bd_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libaccess_bd_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libaccess_bd_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libaccess_bd_plugin.la
+Making install in zip
+make  install-recursive
+Making install in unzip
+make[8]: Nothing to be done for `install-exec-am'.
+make[8]: Nothing to be done for `install-data-am'.
+make[8]: Nothing to be done for `install-exec-am'.
+ ../../../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/access'
+ /bin/sh ../../../libtool   --mode=install /usr/bin/install -c   libzip_plugin.la '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/access'
+libtool: install: /usr/bin/install -c .libs/libzip_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libzip_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libzip_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libzip_plugin.la
+make[6]: Nothing to be done for `install-exec-am'.
+ ../../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/access'
+ /bin/sh ../../libtool --tag=CC   --mode=install /usr/bin/install -c   libfilesystem_plugin.la libidummy_plugin.la libaccess_udp_plugin.la libaccess_tcp_plugin.la libaccess_http_plugin.la libaccess_ftp_plugin.la libaccess_imem_plugin.la libaccess_attachment_plugin.la libsdp_plugin.la libaccess_rar_plugin.la libstream_filter_rar_plugin.la libaccess_vdr_plugin.la libaccess_shm_plugin.la '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/access'
+libtool: install: /usr/bin/install -c .libs/libfilesystem_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libfilesystem_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libfilesystem_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libfilesystem_plugin.la
+libtool: install: /usr/bin/install -c .libs/libidummy_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libidummy_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libidummy_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libidummy_plugin.la
+libtool: install: /usr/bin/install -c .libs/libaccess_udp_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libaccess_udp_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libaccess_udp_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libaccess_udp_plugin.la
+libtool: install: /usr/bin/install -c .libs/libaccess_tcp_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libaccess_tcp_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libaccess_tcp_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libaccess_tcp_plugin.la
+libtool: install: /usr/bin/install -c .libs/libaccess_http_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libaccess_http_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libaccess_http_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libaccess_http_plugin.la
+libtool: install: /usr/bin/install -c .libs/libaccess_ftp_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libaccess_ftp_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libaccess_ftp_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libaccess_ftp_plugin.la
+libtool: install: /usr/bin/install -c .libs/libaccess_imem_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libaccess_imem_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libaccess_imem_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libaccess_imem_plugin.la
+libtool: install: /usr/bin/install -c .libs/libaccess_attachment_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libaccess_attachment_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libaccess_attachment_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libaccess_attachment_plugin.la
+libtool: install: /usr/bin/install -c .libs/libsdp_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libsdp_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libsdp_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libsdp_plugin.la
+libtool: install: /usr/bin/install -c .libs/libaccess_rar_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libaccess_rar_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libaccess_rar_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libaccess_rar_plugin.la
+libtool: install: /usr/bin/install -c .libs/libstream_filter_rar_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libstream_filter_rar_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libstream_filter_rar_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libstream_filter_rar_plugin.la
+libtool: install: /usr/bin/install -c .libs/libaccess_vdr_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libaccess_vdr_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libaccess_vdr_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libaccess_vdr_plugin.la
+libtool: install: /usr/bin/install -c .libs/libaccess_shm_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libaccess_shm_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libaccess_shm_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libaccess_shm_plugin.la
+Making install in audio_filter
+make  install-am
+make[5]: Nothing to be done for `install-exec-am'.
+ ../../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libaudiobargraph_a_plugin.la libchorus_flanger_plugin.la libcompressor_plugin.la libequalizer_plugin.la libkaraoke_plugin.la libnormvol_plugin.la libparam_eq_plugin.la libscaletempo_plugin.la libspatializer_plugin.la libdolby_surround_decoder_plugin.la libheadphone_channel_mixer_plugin.la libmono_plugin.la libsimple_channel_mixer_plugin.la libtrivial_channel_mixer_plugin.la liba52tospdif_plugin.la libaudio_format_plugin.la libconverter_fixed_plugin.la libdtstospdif_plugin.la libugly_resampler_plugin.la '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter'
+libtool: install: /usr/bin/install -c .libs/libaudiobargraph_a_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libaudiobargraph_a_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libaudiobargraph_a_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libaudiobargraph_a_plugin.la
+libtool: install: /usr/bin/install -c .libs/libchorus_flanger_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libchorus_flanger_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libchorus_flanger_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libchorus_flanger_plugin.la
+libtool: install: /usr/bin/install -c .libs/libcompressor_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libcompressor_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libcompressor_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libcompressor_plugin.la
+libtool: install: /usr/bin/install -c .libs/libequalizer_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libequalizer_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libequalizer_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libequalizer_plugin.la
+libtool: install: /usr/bin/install -c .libs/libkaraoke_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libkaraoke_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libkaraoke_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libkaraoke_plugin.la
+libtool: install: /usr/bin/install -c .libs/libnormvol_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libnormvol_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libnormvol_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libnormvol_plugin.la
+libtool: install: /usr/bin/install -c .libs/libparam_eq_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libparam_eq_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libparam_eq_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libparam_eq_plugin.la
+libtool: install: /usr/bin/install -c .libs/libscaletempo_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libscaletempo_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libscaletempo_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libscaletempo_plugin.la
+libtool: install: /usr/bin/install -c .libs/libspatializer_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libspatializer_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libspatializer_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libspatializer_plugin.la
+libtool: install: /usr/bin/install -c .libs/libdolby_surround_decoder_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libdolby_surround_decoder_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libdolby_surround_decoder_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libdolby_surround_decoder_plugin.la
+libtool: install: /usr/bin/install -c .libs/libheadphone_channel_mixer_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libheadphone_channel_mixer_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libheadphone_channel_mixer_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libheadphone_channel_mixer_plugin.la
+libtool: install: /usr/bin/install -c .libs/libmono_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libmono_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libmono_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libmono_plugin.la
+libtool: install: /usr/bin/install -c .libs/libsimple_channel_mixer_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libsimple_channel_mixer_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libsimple_channel_mixer_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libsimple_channel_mixer_plugin.la
+libtool: install: /usr/bin/install -c .libs/libtrivial_channel_mixer_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libtrivial_channel_mixer_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libtrivial_channel_mixer_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libtrivial_channel_mixer_plugin.la
+libtool: install: /usr/bin/install -c .libs/liba52tospdif_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/liba52tospdif_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/liba52tospdif_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/liba52tospdif_plugin.la
+libtool: install: /usr/bin/install -c .libs/libaudio_format_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libaudio_format_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libaudio_format_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libaudio_format_plugin.la
+libtool: install: /usr/bin/install -c .libs/libconverter_fixed_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libconverter_fixed_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libconverter_fixed_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libconverter_fixed_plugin.la
+libtool: install: /usr/bin/install -c .libs/libdtstospdif_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libdtstospdif_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libdtstospdif_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libdtstospdif_plugin.la
+libtool: install: /usr/bin/install -c .libs/libugly_resampler_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libugly_resampler_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libugly_resampler_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libugly_resampler_plugin.la
+Making install in audio_mixer
+make  install-am
+make[5]: Nothing to be done for `install-exec-am'.
+ ../../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_mixer'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libfloat32_mixer_plugin.la libfixed32_mixer_plugin.la '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_mixer'
+libtool: install: /usr/bin/install -c .libs/libfloat32_mixer_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_mixer/libfloat32_mixer_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libfloat32_mixer_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_mixer/libfloat32_mixer_plugin.la
+libtool: install: /usr/bin/install -c .libs/libfixed32_mixer_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_mixer/libfixed32_mixer_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libfixed32_mixer_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_mixer/libfixed32_mixer_plugin.la
+Making install in audio_output
+make  install-am
+make[5]: Nothing to be done for `install-exec-am'.
+ ../../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_output'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libauhal_plugin.la libadummy_plugin.la libamem_plugin.la libaout_file_plugin.la '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_output'
+libtool: install: /usr/bin/install -c .libs/libauhal_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_output/libauhal_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libauhal_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_output/libauhal_plugin.la
+libtool: install: /usr/bin/install -c .libs/libadummy_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_output/libadummy_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libadummy_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_output/libadummy_plugin.la
+libtool: install: /usr/bin/install -c .libs/libamem_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_output/libamem_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libamem_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_output/libamem_plugin.la
+libtool: install: /usr/bin/install -c .libs/libaout_file_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_output/libaout_file_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libaout_file_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_output/libaout_file_plugin.la
+Making install in codec
+make  install-recursive
+Making install in loader
+make[6]: Nothing to be done for `install-exec-am'.
+make[6]: Nothing to be done for `install-data-am'.
+Making install in dmo
+make  install-am
+make[7]: Nothing to be done for `install-exec-am'.
+Making install in avcodec
+make  install-am
+make[7]: Nothing to be done for `install-exec-am'.
+Making install in shine
+make  install-am
+make[7]: Nothing to be done for `install-exec-am'.
+Making install in spudec
+make  install-am
+make[7]: Nothing to be done for `install-exec-am'.
+ ../../../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec'
+ /bin/sh ../../../libtool   --mode=install /usr/bin/install -c   libspudec_plugin.la '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec'
+libtool: install: /usr/bin/install -c .libs/libspudec_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libspudec_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libspudec_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libspudec_plugin.la
+Making install in wmafixed
+make  install-am
+make[7]: Nothing to be done for `install-exec-am'.
+Making install in omxil
+make  install-am
+make[7]: Nothing to be done for `install-exec-am'.
+make[6]: Nothing to be done for `install-exec-am'.
+ ../../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libtelx_plugin.la liba52_plugin.la libadpcm_plugin.la libaes3_plugin.la libaraw_plugin.la libcc_plugin.la libcdg_plugin.la libcvdsub_plugin.la libddummy_plugin.la libdts_plugin.la libdvbsub_plugin.la libedummy_plugin.la liblpcm_plugin.la libmpeg_audio_plugin.la librawvideo_plugin.la libsvcdsub_plugin.la libsubsdec_plugin.la libsubsusf_plugin.la libt140_plugin.la libstl_plugin.la '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec'
+libtool: install: /usr/bin/install -c .libs/libtelx_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libtelx_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libtelx_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libtelx_plugin.la
+libtool: install: /usr/bin/install -c .libs/liba52_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/liba52_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/liba52_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/liba52_plugin.la
+libtool: install: /usr/bin/install -c .libs/libadpcm_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libadpcm_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libadpcm_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libadpcm_plugin.la
+libtool: install: /usr/bin/install -c .libs/libaes3_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libaes3_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libaes3_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libaes3_plugin.la
+libtool: install: /usr/bin/install -c .libs/libaraw_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libaraw_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libaraw_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libaraw_plugin.la
+libtool: install: /usr/bin/install -c .libs/libcc_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libcc_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libcc_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libcc_plugin.la
+libtool: install: /usr/bin/install -c .libs/libcdg_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libcdg_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libcdg_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libcdg_plugin.la
+libtool: install: /usr/bin/install -c .libs/libcvdsub_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libcvdsub_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libcvdsub_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libcvdsub_plugin.la
+libtool: install: /usr/bin/install -c .libs/libddummy_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libddummy_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libddummy_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libddummy_plugin.la
+libtool: install: /usr/bin/install -c .libs/libdts_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libdts_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libdts_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libdts_plugin.la
+libtool: install: /usr/bin/install -c .libs/libdvbsub_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libdvbsub_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libdvbsub_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libdvbsub_plugin.la
+libtool: install: /usr/bin/install -c .libs/libedummy_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libedummy_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libedummy_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libedummy_plugin.la
+libtool: install: /usr/bin/install -c .libs/liblpcm_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/liblpcm_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/liblpcm_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/liblpcm_plugin.la
+libtool: install: /usr/bin/install -c .libs/libmpeg_audio_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libmpeg_audio_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libmpeg_audio_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libmpeg_audio_plugin.la
+libtool: install: /usr/bin/install -c .libs/librawvideo_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/librawvideo_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/librawvideo_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/librawvideo_plugin.la
+libtool: install: /usr/bin/install -c .libs/libsvcdsub_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libsvcdsub_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libsvcdsub_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libsvcdsub_plugin.la
+libtool: install: /usr/bin/install -c .libs/libsubsdec_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libsubsdec_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libsubsdec_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libsubsdec_plugin.la
+libtool: install: /usr/bin/install -c .libs/libsubsusf_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libsubsusf_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libsubsusf_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libsubsusf_plugin.la
+libtool: install: /usr/bin/install -c .libs/libt140_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libt140_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libt140_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libt140_plugin.la
+libtool: install: /usr/bin/install -c .libs/libstl_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libstl_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libstl_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libstl_plugin.la
+Making install in control
+make  install-recursive
+Making install in globalhotkeys
+make  install-am
+make[7]: Nothing to be done for `install-exec-am'.
+Making install in dbus
+make  install-am
+make[7]: Nothing to be done for `install-exec-am'.
+make[6]: Nothing to be done for `install-exec-am'.
+ ../../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/control'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libdummy_plugin.la libgestures_plugin.la libnetsync_plugin.la libhotkeys_plugin.la liboldrc_plugin.la libmotion_plugin.la '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/control'
+libtool: install: /usr/bin/install -c .libs/libdummy_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/control/libdummy_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libdummy_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/control/libdummy_plugin.la
+libtool: install: /usr/bin/install -c .libs/libgestures_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/control/libgestures_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libgestures_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/control/libgestures_plugin.la
+libtool: install: /usr/bin/install -c .libs/libnetsync_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/control/libnetsync_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libnetsync_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/control/libnetsync_plugin.la
+libtool: install: /usr/bin/install -c .libs/libhotkeys_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/control/libhotkeys_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libhotkeys_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/control/libhotkeys_plugin.la
+libtool: install: /usr/bin/install -c .libs/liboldrc_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/control/liboldrc_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/liboldrc_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/control/liboldrc_plugin.la
+libtool: install: /usr/bin/install -c .libs/libmotion_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/control/libmotion_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libmotion_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/control/libmotion_plugin.la
+Making install in demux
+make  install-recursive
+Making install in asf
+make  install-am
+make[7]: Nothing to be done for `install-exec-am'.
+ ../../../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux'
+ /bin/sh ../../../libtool   --mode=install /usr/bin/install -c   libasf_plugin.la '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux'
+libtool: install: /usr/bin/install -c .libs/libasf_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libasf_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libasf_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libasf_plugin.la
+Making install in avformat
+make  install-am
+make[7]: Nothing to be done for `install-exec-am'.
+Making install in avi
+make  install-am
+make[7]: Nothing to be done for `install-exec-am'.
+ ../../../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux'
+ /bin/sh ../../../libtool   --mode=install /usr/bin/install -c   libavi_plugin.la '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux'
+libtool: install: /usr/bin/install -c .libs/libavi_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libavi_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libavi_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libavi_plugin.la
+Making install in mkv
+make  install-am
+make[7]: Nothing to be done for `install-exec-am'.
+Making install in mp4
+make  install-am
+make[7]: Nothing to be done for `install-exec-am'.
+ ../../../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux'
+ /bin/sh ../../../libtool   --mode=install /usr/bin/install -c   libmp4_plugin.la '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux'
+libtool: install: /usr/bin/install -c .libs/libmp4_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libmp4_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libmp4_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libmp4_plugin.la
+Making install in mpeg
+make  install-am
+make[7]: Nothing to be done for `install-exec-am'.
+ ../../../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux'
+ /bin/sh ../../../libtool   --mode=install /usr/bin/install -c   libes_plugin.la libmpgv_plugin.la libh264_plugin.la '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux'
+libtool: install: /usr/bin/install -c .libs/libes_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libes_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libes_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libes_plugin.la
+libtool: install: /usr/bin/install -c .libs/libmpgv_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libmpgv_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libmpgv_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libmpgv_plugin.la
+libtool: install: /usr/bin/install -c .libs/libh264_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libh264_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libh264_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libh264_plugin.la
+Making install in playlist
+make  install-am
+make[7]: Nothing to be done for `install-exec-am'.
+ ../../../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux'
+ /bin/sh ../../../libtool   --mode=install /usr/bin/install -c   libplaylist_plugin.la '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux'
+libtool: install: /usr/bin/install -c .libs/libplaylist_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libplaylist_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libplaylist_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libplaylist_plugin.la
+make[6]: Nothing to be done for `install-exec-am'.
+ ../../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libaiff_plugin.la libau_plugin.la librawaud_plugin.la libdirac_plugin.la libdemux_cdg_plugin.la libdemuxdump_plugin.la libflacsys_plugin.la libmjpeg_plugin.la libnsc_plugin.la libnsv_plugin.la libnuv_plugin.la libpva_plugin.la libps_plugin.la librawdv_plugin.la librawvid_plugin.la libreal_plugin.la libsmf_plugin.la libsubtitle_plugin.la libtta_plugin.la libty_plugin.la libvc1_plugin.la libvobsub_plugin.la libvoc_plugin.la libwav_plugin.la libxa_plugin.la libimage_plugin.la libdemux_stl_plugin.la '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux'
+libtool: install: /usr/bin/install -c .libs/libaiff_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libaiff_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libaiff_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libaiff_plugin.la
+libtool: install: /usr/bin/install -c .libs/libau_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libau_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libau_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libau_plugin.la
+libtool: install: /usr/bin/install -c .libs/librawaud_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/librawaud_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/librawaud_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/librawaud_plugin.la
+libtool: install: /usr/bin/install -c .libs/libdirac_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libdirac_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libdirac_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libdirac_plugin.la
+libtool: install: /usr/bin/install -c .libs/libdemux_cdg_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libdemux_cdg_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libdemux_cdg_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libdemux_cdg_plugin.la
+libtool: install: /usr/bin/install -c .libs/libdemuxdump_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libdemuxdump_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libdemuxdump_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libdemuxdump_plugin.la
+libtool: install: /usr/bin/install -c .libs/libflacsys_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libflacsys_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libflacsys_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libflacsys_plugin.la
+libtool: install: /usr/bin/install -c .libs/libmjpeg_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libmjpeg_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libmjpeg_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libmjpeg_plugin.la
+libtool: install: /usr/bin/install -c .libs/libnsc_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libnsc_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libnsc_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libnsc_plugin.la
+libtool: install: /usr/bin/install -c .libs/libnsv_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libnsv_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libnsv_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libnsv_plugin.la
+libtool: install: /usr/bin/install -c .libs/libnuv_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libnuv_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libnuv_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libnuv_plugin.la
+libtool: install: /usr/bin/install -c .libs/libpva_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libpva_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libpva_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libpva_plugin.la
+libtool: install: /usr/bin/install -c .libs/libps_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libps_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libps_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libps_plugin.la
+libtool: install: /usr/bin/install -c .libs/librawdv_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/librawdv_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/librawdv_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/librawdv_plugin.la
+libtool: install: /usr/bin/install -c .libs/librawvid_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/librawvid_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/librawvid_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/librawvid_plugin.la
+libtool: install: /usr/bin/install -c .libs/libreal_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libreal_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libreal_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libreal_plugin.la
+libtool: install: /usr/bin/install -c .libs/libsmf_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libsmf_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libsmf_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libsmf_plugin.la
+libtool: install: /usr/bin/install -c .libs/libsubtitle_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libsubtitle_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libsubtitle_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libsubtitle_plugin.la
+libtool: install: /usr/bin/install -c .libs/libtta_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libtta_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libtta_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libtta_plugin.la
+libtool: install: /usr/bin/install -c .libs/libty_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libty_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libty_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libty_plugin.la
+libtool: install: /usr/bin/install -c .libs/libvc1_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libvc1_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libvc1_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libvc1_plugin.la
+libtool: install: /usr/bin/install -c .libs/libvobsub_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libvobsub_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libvobsub_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libvobsub_plugin.la
+libtool: install: /usr/bin/install -c .libs/libvoc_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libvoc_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libvoc_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libvoc_plugin.la
+libtool: install: /usr/bin/install -c .libs/libwav_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libwav_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libwav_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libwav_plugin.la
+libtool: install: /usr/bin/install -c .libs/libxa_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libxa_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libxa_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libxa_plugin.la
+libtool: install: /usr/bin/install -c .libs/libimage_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libimage_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libimage_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libimage_plugin.la
+libtool: install: /usr/bin/install -c .libs/libdemux_stl_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libdemux_stl_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libdemux_stl_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libdemux_stl_plugin.la
+Making install in gui
+make  install-recursive
+Making install in macosx
+make  install-am
+make[7]: Nothing to be done for `install-exec-am'.
+Making install in macosx_dialog_provider
+make  install-am
+make[7]: Nothing to be done for `install-exec-am'.
+make[6]: Nothing to be done for `install-exec-am'.
+ ../../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/gui'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libncurses_plugin.la '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/gui'
+libtool: install: /usr/bin/install -c .libs/libncurses_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/gui/libncurses_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libncurses_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/gui/libncurses_plugin.la
+Making install in meta_engine
+make  install-am
+make[5]: Nothing to be done for `install-exec-am'.
+ ../../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/meta_engine'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libfolder_plugin.la '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/meta_engine'
+libtool: install: /usr/bin/install -c .libs/libfolder_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/meta_engine/libfolder_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libfolder_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/meta_engine/libfolder_plugin.la
+Making install in misc
+make  install-recursive
+Making install in playlist
+make  install-am
+make[7]: Nothing to be done for `install-exec-am'.
+ ../../../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/misc'
+ /bin/sh ../../../libtool   --mode=install /usr/bin/install -c   libexport_plugin.la '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/misc'
+libtool: install: /usr/bin/install -c .libs/libexport_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/misc/libexport_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libexport_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/misc/libexport_plugin.la
+Making install in stats
+make  install-am
+make[7]: Nothing to be done for `install-exec-am'.
+ ../../../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/misc'
+ /bin/sh ../../../libtool   --mode=install /usr/bin/install -c   libstats_plugin.la '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/misc'
+libtool: install: /usr/bin/install -c .libs/libstats_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/misc/libstats_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libstats_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/misc/libstats_plugin.la
+Making install in osd
+make  install-am
+make[7]: Nothing to be done for `install-exec-am'.
+make[6]: Nothing to be done for `install-exec-am'.
+ ../../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/misc'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libmemcpy_plugin.la libaudioscrobbler_plugin.la liblogger_plugin.la '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/misc'
+libtool: install: /usr/bin/install -c .libs/libmemcpy_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/misc/libmemcpy_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libmemcpy_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/misc/libmemcpy_plugin.la
+libtool: install: /usr/bin/install -c .libs/libaudioscrobbler_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/misc/libaudioscrobbler_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libaudioscrobbler_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/misc/libaudioscrobbler_plugin.la
+libtool: install: /usr/bin/install -c .libs/liblogger_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/misc/liblogger_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/liblogger_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/misc/liblogger_plugin.la
+Making install in media_library
+make  install-am
+make[5]: Nothing to be done for `install-exec-am'.
+Making install in notify
+make  install-am
+make[5]: Nothing to be done for `install-exec-am'.
+Making install in packetizer
+make  install-am
+make[5]: Nothing to be done for `install-exec-am'.
+ ../../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/packetizer'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libpacketizer_mpegvideo_plugin.la libpacketizer_mpeg4video_plugin.la libpacketizer_mpeg4audio_plugin.la libpacketizer_h264_plugin.la libpacketizer_vc1_plugin.la libpacketizer_mlp_plugin.la libpacketizer_dirac_plugin.la libpacketizer_flac_plugin.la '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/packetizer'
+libtool: install: /usr/bin/install -c .libs/libpacketizer_mpegvideo_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/packetizer/libpacketizer_mpegvideo_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libpacketizer_mpegvideo_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/packetizer/libpacketizer_mpegvideo_plugin.la
+libtool: install: /usr/bin/install -c .libs/libpacketizer_mpeg4video_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/packetizer/libpacketizer_mpeg4video_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libpacketizer_mpeg4video_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/packetizer/libpacketizer_mpeg4video_plugin.la
+libtool: install: /usr/bin/install -c .libs/libpacketizer_mpeg4audio_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/packetizer/libpacketizer_mpeg4audio_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libpacketizer_mpeg4audio_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/packetizer/libpacketizer_mpeg4audio_plugin.la
+libtool: install: /usr/bin/install -c .libs/libpacketizer_h264_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/packetizer/libpacketizer_h264_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libpacketizer_h264_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/packetizer/libpacketizer_h264_plugin.la
+libtool: install: /usr/bin/install -c .libs/libpacketizer_vc1_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/packetizer/libpacketizer_vc1_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libpacketizer_vc1_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/packetizer/libpacketizer_vc1_plugin.la
+libtool: install: /usr/bin/install -c .libs/libpacketizer_mlp_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/packetizer/libpacketizer_mlp_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libpacketizer_mlp_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/packetizer/libpacketizer_mlp_plugin.la
+libtool: install: /usr/bin/install -c .libs/libpacketizer_dirac_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/packetizer/libpacketizer_dirac_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libpacketizer_dirac_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/packetizer/libpacketizer_dirac_plugin.la
+libtool: install: /usr/bin/install -c .libs/libpacketizer_flac_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/packetizer/libpacketizer_flac_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libpacketizer_flac_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/packetizer/libpacketizer_flac_plugin.la
+Making install in services_discovery
+make  install-am
+make[5]: Nothing to be done for `install-exec-am'.
+ ../../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/services_discovery'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libmediadirs_plugin.la libpodcast_plugin.la libsap_plugin.la '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/services_discovery'
+libtool: install: /usr/bin/install -c .libs/libmediadirs_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/services_discovery/libmediadirs_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libmediadirs_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/services_discovery/libmediadirs_plugin.la
+libtool: install: /usr/bin/install -c .libs/libpodcast_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/services_discovery/libpodcast_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libpodcast_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/services_discovery/libpodcast_plugin.la
+libtool: install: /usr/bin/install -c .libs/libsap_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/services_discovery/libsap_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libsap_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/services_discovery/libsap_plugin.la
+Making install in stream_filter
+make  install-recursive
+Making install in dash
+make  install-am
+make[7]: Nothing to be done for `install-exec-am'.
+ ../../../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/stream_filter'
+ /bin/sh ../../../libtool   --mode=install /usr/bin/install -c   libstream_filter_dash_plugin.la '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/stream_filter'
+libtool: install: /usr/bin/install -c .libs/libstream_filter_dash_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/stream_filter/libstream_filter_dash_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libstream_filter_dash_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/stream_filter/libstream_filter_dash_plugin.la
+make[6]: Nothing to be done for `install-exec-am'.
+ ../../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/stream_filter'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libstream_filter_record_plugin.la libdecomp_plugin.la '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/stream_filter'
+libtool: install: /usr/bin/install -c .libs/libstream_filter_record_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/stream_filter/libstream_filter_record_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libstream_filter_record_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/stream_filter/libstream_filter_record_plugin.la
+libtool: install: /usr/bin/install -c .libs/libdecomp_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/stream_filter/libdecomp_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libdecomp_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/stream_filter/libdecomp_plugin.la
+Making install in text_renderer
+make  install-am
+make[5]: Nothing to be done for `install-exec-am'.
+ ../../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/text_renderer'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libtdummy_plugin.la '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/text_renderer'
+libtool: install: /usr/bin/install -c .libs/libtdummy_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/text_renderer/libtdummy_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libtdummy_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/text_renderer/libtdummy_plugin.la
+Making install in video_chroma
+make  install-am
+make[5]: Nothing to be done for `install-exec-am'.
+ ../../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_chroma'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libi420_rgb_plugin.la libi420_yuy2_plugin.la libi422_i420_plugin.la libi422_yuy2_plugin.la libgrey_yuv_plugin.la libyuy2_i420_plugin.la libyuy2_i422_plugin.la librv32_plugin.la '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_chroma'
+libtool: install: /usr/bin/install -c .libs/libi420_rgb_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_chroma/libi420_rgb_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libi420_rgb_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_chroma/libi420_rgb_plugin.la
+libtool: install: /usr/bin/install -c .libs/libi420_yuy2_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_chroma/libi420_yuy2_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libi420_yuy2_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_chroma/libi420_yuy2_plugin.la
+libtool: install: /usr/bin/install -c .libs/libi422_i420_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_chroma/libi422_i420_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libi422_i420_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_chroma/libi422_i420_plugin.la
+libtool: install: /usr/bin/install -c .libs/libi422_yuy2_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_chroma/libi422_yuy2_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libi422_yuy2_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_chroma/libi422_yuy2_plugin.la
+libtool: install: /usr/bin/install -c .libs/libgrey_yuv_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_chroma/libgrey_yuv_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libgrey_yuv_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_chroma/libgrey_yuv_plugin.la
+libtool: install: /usr/bin/install -c .libs/libyuy2_i420_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_chroma/libyuy2_i420_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libyuy2_i420_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_chroma/libyuy2_i420_plugin.la
+libtool: install: /usr/bin/install -c .libs/libyuy2_i422_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_chroma/libyuy2_i422_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libyuy2_i422_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_chroma/libyuy2_i422_plugin.la
+libtool: install: /usr/bin/install -c .libs/librv32_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_chroma/librv32_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/librv32_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_chroma/librv32_plugin.la
+Making install in video_filter
+make  install-recursive
+Making install in dynamicoverlay
+make  install-am
+make[7]: Nothing to be done for `install-exec-am'.
+ ../../../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter'
+ /bin/sh ../../../libtool   --mode=install /usr/bin/install -c   libdynamicoverlay_plugin.la '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter'
+libtool: install: /usr/bin/install -c .libs/libdynamicoverlay_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libdynamicoverlay_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libdynamicoverlay_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libdynamicoverlay_plugin.la
+make[6]: Nothing to be done for `install-exec-am'.
+ ../../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libosdmenu_plugin.la libadjust_plugin.la libalphamask_plugin.la libaudiobargraph_v_plugin.la libball_plugin.la libblend_plugin.la libblendbench_plugin.la libbluescreen_plugin.la libcanvas_plugin.la libchain_plugin.la libclone_plugin.la libcolorthres_plugin.la libcroppadd_plugin.la libdeinterlace_plugin.la liberase_plugin.la libextract_plugin.la libgradient_plugin.la libgrain_plugin.la libgaussianblur_plugin.la libinvert_plugin.la liblogo_plugin.la libmagnify_plugin.la libmarq_plugin.la libmirror_plugin.la libmosaic_plugin.la libmotionblur_plugin.la libmotiondetect_plugin.la libposterize_plugin.la libpsychedelic_plugin.la libpuzzle_plugin.la libripple_plugin.la librotate_plugin.la librss_plugin.la libscale_plugin.la libscene_plugin.la libsepia_plugin.la libsharpen_plugin.la libsubsdelay_plugin.la libtransform_plugin.la libwall_plugin.la libwave_plugin.la libgradfun_plugin.la libyuvp_plugin.la libantiflicker_plugin.la libhqdn3d_plugin.la '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter'
+libtool: install: /usr/bin/install -c .libs/libosdmenu_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libosdmenu_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libosdmenu_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libosdmenu_plugin.la
+libtool: install: /usr/bin/install -c .libs/libadjust_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libadjust_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libadjust_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libadjust_plugin.la
+libtool: install: /usr/bin/install -c .libs/libalphamask_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libalphamask_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libalphamask_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libalphamask_plugin.la
+libtool: install: /usr/bin/install -c .libs/libaudiobargraph_v_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libaudiobargraph_v_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libaudiobargraph_v_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libaudiobargraph_v_plugin.la
+libtool: install: /usr/bin/install -c .libs/libball_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libball_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libball_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libball_plugin.la
+libtool: install: /usr/bin/install -c .libs/libblend_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libblend_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libblend_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libblend_plugin.la
+libtool: install: /usr/bin/install -c .libs/libblendbench_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libblendbench_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libblendbench_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libblendbench_plugin.la
+libtool: install: /usr/bin/install -c .libs/libbluescreen_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libbluescreen_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libbluescreen_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libbluescreen_plugin.la
+libtool: install: /usr/bin/install -c .libs/libcanvas_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libcanvas_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libcanvas_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libcanvas_plugin.la
+libtool: install: /usr/bin/install -c .libs/libchain_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libchain_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libchain_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libchain_plugin.la
+libtool: install: /usr/bin/install -c .libs/libclone_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libclone_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libclone_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libclone_plugin.la
+libtool: install: /usr/bin/install -c .libs/libcolorthres_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libcolorthres_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libcolorthres_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libcolorthres_plugin.la
+libtool: install: /usr/bin/install -c .libs/libcroppadd_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libcroppadd_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libcroppadd_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libcroppadd_plugin.la
+libtool: install: /usr/bin/install -c .libs/libdeinterlace_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libdeinterlace_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libdeinterlace_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libdeinterlace_plugin.la
+libtool: install: /usr/bin/install -c .libs/liberase_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/liberase_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/liberase_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/liberase_plugin.la
+libtool: install: /usr/bin/install -c .libs/libextract_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libextract_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libextract_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libextract_plugin.la
+libtool: install: /usr/bin/install -c .libs/libgradient_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libgradient_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libgradient_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libgradient_plugin.la
+libtool: install: /usr/bin/install -c .libs/libgrain_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libgrain_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libgrain_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libgrain_plugin.la
+libtool: install: /usr/bin/install -c .libs/libgaussianblur_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libgaussianblur_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libgaussianblur_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libgaussianblur_plugin.la
+libtool: install: /usr/bin/install -c .libs/libinvert_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libinvert_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libinvert_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libinvert_plugin.la
+libtool: install: /usr/bin/install -c .libs/liblogo_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/liblogo_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/liblogo_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/liblogo_plugin.la
+libtool: install: /usr/bin/install -c .libs/libmagnify_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libmagnify_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libmagnify_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libmagnify_plugin.la
+libtool: install: /usr/bin/install -c .libs/libmarq_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libmarq_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libmarq_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libmarq_plugin.la
+libtool: install: /usr/bin/install -c .libs/libmirror_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libmirror_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libmirror_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libmirror_plugin.la
+libtool: install: /usr/bin/install -c .libs/libmosaic_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libmosaic_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libmosaic_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libmosaic_plugin.la
+libtool: install: /usr/bin/install -c .libs/libmotionblur_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libmotionblur_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libmotionblur_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libmotionblur_plugin.la
+libtool: install: /usr/bin/install -c .libs/libmotiondetect_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libmotiondetect_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libmotiondetect_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libmotiondetect_plugin.la
+libtool: install: /usr/bin/install -c .libs/libposterize_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libposterize_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libposterize_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libposterize_plugin.la
+libtool: install: /usr/bin/install -c .libs/libpsychedelic_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libpsychedelic_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libpsychedelic_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libpsychedelic_plugin.la
+libtool: install: /usr/bin/install -c .libs/libpuzzle_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libpuzzle_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libpuzzle_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libpuzzle_plugin.la
+libtool: install: /usr/bin/install -c .libs/libripple_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libripple_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libripple_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libripple_plugin.la
+libtool: install: /usr/bin/install -c .libs/librotate_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/librotate_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/librotate_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/librotate_plugin.la
+libtool: install: /usr/bin/install -c .libs/librss_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/librss_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/librss_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/librss_plugin.la
+libtool: install: /usr/bin/install -c .libs/libscale_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libscale_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libscale_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libscale_plugin.la
+libtool: install: /usr/bin/install -c .libs/libscene_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libscene_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libscene_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libscene_plugin.la
+libtool: install: /usr/bin/install -c .libs/libsepia_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libsepia_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libsepia_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libsepia_plugin.la
+libtool: install: /usr/bin/install -c .libs/libsharpen_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libsharpen_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libsharpen_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libsharpen_plugin.la
+libtool: install: /usr/bin/install -c .libs/libsubsdelay_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libsubsdelay_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libsubsdelay_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libsubsdelay_plugin.la
+libtool: install: /usr/bin/install -c .libs/libtransform_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libtransform_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libtransform_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libtransform_plugin.la
+libtool: install: /usr/bin/install -c .libs/libwall_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libwall_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libwall_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libwall_plugin.la
+libtool: install: /usr/bin/install -c .libs/libwave_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libwave_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libwave_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libwave_plugin.la
+libtool: install: /usr/bin/install -c .libs/libgradfun_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libgradfun_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libgradfun_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libgradfun_plugin.la
+libtool: install: /usr/bin/install -c .libs/libyuvp_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libyuvp_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libyuvp_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libyuvp_plugin.la
+libtool: install: /usr/bin/install -c .libs/libantiflicker_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libantiflicker_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libantiflicker_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libantiflicker_plugin.la
+libtool: install: /usr/bin/install -c .libs/libhqdn3d_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libhqdn3d_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libhqdn3d_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libhqdn3d_plugin.la
+Making install in video_output
+make  install-recursive
+Making install in msw
+make  install-am
+make[7]: Nothing to be done for `install-exec-am'.
+make[6]: Nothing to be done for `install-exec-am'.
+ ../../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_output'
+ /bin/sh ../../libtool --tag=CC   --mode=install /usr/bin/install -c   libvdummy_plugin.la libvmem_plugin.la libyuv_plugin.la '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_output'
+libtool: install: /usr/bin/install -c .libs/libvdummy_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_output/libvdummy_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libvdummy_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_output/libvdummy_plugin.la
+libtool: install: /usr/bin/install -c .libs/libvmem_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_output/libvmem_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libvmem_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_output/libvmem_plugin.la
+libtool: install: /usr/bin/install -c .libs/libyuv_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_output/libyuv_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libyuv_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_output/libyuv_plugin.la
+Making install in visualization
+make  install-recursive
+Making install in visual
+make  install-am
+make[7]: Nothing to be done for `install-exec-am'.
+make[6]: Nothing to be done for `install-exec-am'.
+Making install in altivec
+make  install-am
+make[5]: Nothing to be done for `install-exec-am'.
+ ../../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/altivec'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libmemcpyaltivec_plugin.la libi420_yuy2_altivec_plugin.la '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/altivec'
+libtool: install: /usr/bin/install -c .libs/libmemcpyaltivec_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/altivec/libmemcpyaltivec_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libmemcpyaltivec_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/altivec/libmemcpyaltivec_plugin.la
+libtool: install: /usr/bin/install -c .libs/libi420_yuy2_altivec_plugin.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/altivec/libi420_yuy2_altivec_plugin.dylib
+libtool: install: /usr/bin/install -c .libs/libi420_yuy2_altivec_plugin.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins/altivec/libi420_yuy2_altivec_plugin.la
+Making install in .
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+Making install in lib
+make  install-am
+ ../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libvlc.la '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib'
+libtool: install: /usr/bin/install -c .libs/libvlc.5.dylib /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/libvlc.5.dylib
+libtool: install: (cd /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib && { ln -s -f libvlc.5.dylib libvlc.dylib || { rm -f libvlc.dylib && ln -s libvlc.5.dylib libvlc.dylib; }; })
+libtool: install: /usr/bin/install -c .libs/libvlc.lai /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/libvlc.la
+ ../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/include/vlc'
+ /usr/bin/install -c -m 644 ../include/vlc/libvlc_version.h '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/include/vlc'
+ ../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libvlc.pc '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/pkgconfig'
+ ../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/include/vlc'
+ /usr/bin/install -c -m 644 ../include/vlc/deprecated.h ../include/vlc/libvlc.h ../include/vlc/libvlc_events.h ../include/vlc/libvlc_media.h ../include/vlc/libvlc_media_discoverer.h ../include/vlc/libvlc_media_library.h ../include/vlc/libvlc_media_list.h ../include/vlc/libvlc_media_list_player.h ../include/vlc/libvlc_media_player.h ../include/vlc/libvlc_structures.h ../include/vlc/libvlc_vlm.h ../include/vlc/vlc.h '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/include/vlc'
+Making install in bin
+rm -f ../modules/plugins.dat
+if test "powerpc-apple-darwin9.8.0" = "powerpc-apple-darwin9.8.0"; then \
+		./vlc-cache-gen ../modules ; \
+	else \
+		echo "Cross-compilation: cache generation skipped!" ; \
+	fi
+ ../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c vlc vlc-wrapper '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/bin'
+libtool: install: /usr/bin/install -c .libs/vlc /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/bin/vlc
+libtool: install: /usr/bin/install -c vlc-wrapper /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/bin/vlc-wrapper
+ ../autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c vlc-cache-gen '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc'
+libtool: install: /usr/bin/install -c .libs/vlc-cache-gen /Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/vlc-cache-gen
+Making install in test
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+ autotools/install-sh -c -d '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/bin'
+ /usr/bin/install -c cvlc rvlc nvlc '/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/bin'
+make  install-exec-hook
+if test "powerpc-apple-darwin9.8.0" = "powerpc-apple-darwin9.8.0"; then \
+		LD_LIBRARY_PATH="/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib:$LD_LIBRARY_PATH" \
+		"/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/vlc-cache-gen" \
+			 "/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins" ; \
+	else \
+		echo "Cross-compilation: cache generation skipped!" ; \
+	fi
+make[3]: Nothing to be done for `install-data-am'.
