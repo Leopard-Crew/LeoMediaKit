@@ -1,5 +1,5 @@
 # LeoMediaKit
-A robust media client for Mac OS X Leopard-native applications
+A robust media client for Mac OS X 10.5.8 Leopard PowerPC-native applications
 
 - player abstraction
 - audio/video playback
