@@ -1,0 +1,61 @@
+Date:
+Sun May 10 16:03:19 CEST 2026
+
+System:
+Darwin imacg5.fritz.box 9.8.0 Darwin Kernel Version 9.8.0: Wed Jul 15 16:57:01 PDT 2009; root:xnu-1228.15.4~1/RELEASE_PPC Power Macintosh
+ProductName:	Mac OS X
+ProductVersion:	10.5.8
+BuildVersion:	9L30
+
+Xcode:
+Xcode 3.1.4
+Component versions: DevToolsCore-1204.0; DevToolsSupport-1186.0
+BuildVersion: 9M2809
+Mac OS X SDKs:
+	Mac OS X 10.4                 	-sdk macosx10.4
+	Mac OS X 10.5                 	-sdk macosx10.5
+
+
+Compiler:
+/usr/bin/gcc
+powerpc-apple-darwin9-gcc-4.0.1 (GCC) 4.0.1 (Apple Inc. build 5493)
+Copyright (C) 2005 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+/usr/bin/gcc-4.0
+powerpc-apple-darwin9-gcc-4.0.1 (GCC) 4.0.1 (Apple Inc. build 5493)
+Copyright (C) 2005 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+/usr/bin/g++
+powerpc-apple-darwin9-g++-4.0.1 (GCC) 4.0.1 (Apple Inc. build 5493)
+Copyright (C) 2005 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+/usr/bin/g++-4.0
+powerpc-apple-darwin9-g++-4.0.1 (GCC) 4.0.1 (Apple Inc. build 5493)
+Copyright (C) 2005 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+Tools:
+/usr/bin/make
+GNU Make 3.81
+Copyright (C) 2006  Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.
+There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE.
+
+/opt/local/bin/pkg-config
+0.29.2
+
+/opt/local/bin/xz
+xz (XZ Utils) 5.8.3
+liblzma 5.8.3
