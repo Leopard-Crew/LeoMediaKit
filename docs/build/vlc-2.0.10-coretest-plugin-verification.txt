@@ -1,0 +1,399 @@
+Date:
+Sun May 10 17:38:50 CEST 2026
+
+VLC_PLUGIN_PATH test:
+/Users/admin/Desktop/Projekte/LeoMediaKit/dist/vlc-2.0.10-coretest/lib/vlc/plugins
+
+Installed files under lib/vlc:
+     370
+
+Installed plugin dylibs:
+     184
+
+First 200 VLC modules:
+  yuv                    YUV video output
+  vmem                   Video memory output
+  vdummy                 Dummy video output
+  vdummy                 Statistics video output
+  yuvp                   YUVP converter
+  wave                   Wave video filter
+  wall                   Wall video filter
+  transform              Video transformation filter
+  subsdelay              Subtitles delay
+  sharpen                Sharpen video filter
+  sepia                  Sepia video filter
+  scene                  Scene video filter
+  scale                  Video scaling filter
+  rss                    RSS and Atom feed display
+  rotate                 Rotate video filter
+  ripple                 Ripple video filter
+  puzzle                 Puzzle interactive game video filter
+  psychedelic            Psychedelic video filter
+  posterize              Posterize video filter
+  osdmenu                On Screen Display menu
+  motiondetect           Motion detect video filter
+  motionblur             Motion blur filter
+  mosaic                 Mosaic video sub source
+  mirror                 Mirror video filter
+  marq                   Marquee display
+  magnify                Magnify/Zoom interactive video filter
+  logo                   Logo sub source
+  logo                   Logo video filter
+  invert                 Invert video filter
+  hqdn3d                 High Quality 3D Denoiser filter
+  grain                  Grain video filter
+  gradient               Gradient video filter
+  gradfun                Gradfun video filter
+  gaussianblur           Gaussian blur video filter
+  extract                Extract RGB component video filter
+  erase                  Erase video filter
+  dynamicoverlay         Dynamic video overlay
+  deinterlace            Deinterlacing video filter
+  croppadd               Video scaling filter
+  colorthres             Color threshold filter
+  clone                  Clone video filter
+  chain                  Video filtering using a chain of video filter modules
+  canvas                 Canvas video filter
+  bluescreen             Bluescreen video filter
+  blendbench             Blending benchmark filter
+  blend                  Video pictures blending
+  ball                   Ball video filter
+  audiobargraph_v        Audio Bar Graph Video sub source
+  audiobargraph_v        Audio Bar Graph Video sub source
+  antiflicker            antiflicker video filter
+  alphamask              Alpha mask video filter
+  adjust                 Image properties filter
+  yuy2_i422              Conversions from YUY2,YUNV,YVYU,UYVY,UYNV,Y422,cyuv to I422
+  yuy2_i420              Conversions from YUY2,YUNV,YVYU,UYVY,UYNV,Y422,cyuv to I420
+  rv32                   RV32 conversion filter
+  i422_yuy2              Conversions from I422 to YUY2,YUNV,YVYU,UYVY,UYNV,Y422,IUYV,cyuv,Y211
+  i422_i420              Conversions from I422,J422 to I420,IYUV,J420,YV12,YUVA
+  i420_yuy2              Conversions from I420,IYUV,YV12 to YUY2,YUNV,YVYU,UYVY,UYNV,Y422,IUYV,cyuv,Y211
+  i420_rgb               I420,IYUV,YV12 to RGB2,RV15,RV16,RV24,RV32 conversions
+  grey_yuv               Conversions from GREY to I420,YUY2
+  tdummy                 Dummy font renderer
+  stream_filter_record   Internal stream record
+  stream_filter_dash     Dynamic Adaptive Streaming over HTTP
+  decomp                 Decompression
+  decomp                 Decompression
+  decomp                 Decompression
+  sap                    Network streams (SAP)
+  sap                    SDP Descriptions parser
+  sap                    Network streams (SAP)
+  podcast                Podcasts
+  podcast                Podcasts
+  mediadirs              My Videos
+  mediadirs              My Videos
+  mediadirs              My Pictures
+  mediadirs              My Music
+  packetizer_vc1         VC-1 packetizer
+  packetizer_mpegvideo   MPEG-I/II video packetizer
+  packetizer_mpeg4video  MPEG4 video packetizer
+  packetizer_mpeg4audio  MPEG4 audio packetizer
+  packetizer_mlp         MLP/TrueHD parser
+  packetizer_h264        H.264 video packetizer
+  packetizer_flac        Flac audio packetizer
+  packetizer_dirac       Dirac packetizer
+  stats                  Stats encoder function
+  stats                  Stats demux function
+  stats                  Stats decoder function
+  memcpy                 libc memcpy
+  logger                 File logging
+  export                 export
+  export                 HTML playlist export
+  export                 XSPF playlist export
+  export                 M3U8 playlist export
+  export                 M3U playlist export
+  audioscrobbler         Submission of played songs to last.fm
+  folder                 Folder meta data
+  ncurses                Ncurses interface
+  xa                     XA demuxer
+  wav                    WAV demuxer
+  voc                    VOC demuxer
+  vobsub                 Vobsub subtitles parser
+  vc1                    VC1 video demuxer
+  ty                     TY Stream audio/video demux
+  tta                    TTA demuxer
+  subtitle               Text subtitles parser
+  smf                    SMF demuxer
+  real                   Real demuxer
+  rawvid                 Raw video demuxer
+  rawdv                  DV (Digital Video) demuxer
+  rawaud                 Raw audio demuxer
+  pva                    PVA demuxer
+  ps                     MPEG-PS demuxer
+  ps                     MPEG-PS demuxer
+  playlist               Playlist
+  playlist               ZPL playlist import
+  playlist               WPL playlist import
+  playlist               iTunes Music Library importer
+  playlist               Dummy ifo demux
+  playlist               Google Video Playlist importer
+  playlist               QuickTime Media Link importer
+  playlist               Kasenna MediaBase parser
+  playlist               ASX playlist import
+  playlist               New winamp 5.2 shoutcast import
+  playlist               XSPF playlist import
+  playlist               Podcast parser
+  playlist               DVB playlist import
+  playlist               B4S playlist import
+  playlist               PLS playlist import
+  playlist               RAM playlist import
+  playlist               M3U playlist import
+  nuv                    Nuv demuxer
+  nsv                    NullSoft demuxer
+  nsc                    Windows Media NSC metademux
+  mpgv                   MPEG-I/II video demuxer
+  mp4                    MP4 stream demuxer
+  mjpeg                  M-JPEG camera demuxer
+  image                  Image demuxer
+  h264                   H264 video demuxer
+  flacsys                FLAC demuxer
+  es                     MPEG-I/II/4 / A52 / DTS / MLP audio
+  es                     MPEG-4 video
+  dirac                  Dirac video demuxer
+  demuxdump              File dumper
+  demux_stl              EBU STL subtitles parser
+  demux_cdg              CDG demuxer
+  avi                    AVI demuxer
+  au                     AU demuxer
+  asf                    ASF/WMV demuxer
+  aiff                   AIFF demuxer
+  oldrc                  Remote control interface
+  netsync                Network synchronization
+  motion                 motion control interface
+  hotkeys                Hotkeys management interface
+  gestures               Mouse gestures control interface
+  dummy                  Dummy interface
+  telx                   Teletext subtitles decoder
+  t140                   T.140 text encoder
+  svcdsub                Philips OGT (SVCD subtitle) decoder
+  svcdsub                Philips OGT (SVCD subtitle) packetizer
+  subsusf                USF subtitles decoder
+  subsdec                Text subtitles decoder
+  stl                    EBU STL subtitles decoder
+  spudec                 DVD subtitles decoder
+  spudec                 DVD subtitles packetizer
+  rawvideo               Pseudo raw video decoder
+  rawvideo               Pseudo raw video packetizer
+  mpeg_audio             MPEG audio layer I/II/III decoder
+  mpeg_audio             MPEG audio layer I/II/III packetizer
+  lpcm                   Linear PCM audio decoder
+  lpcm                   Linear PCM audio packetizer
+  edummy                 Dummy encoder
+  dvbsub                 DVB subtitles decoder
+  dts                    DTS parser
+  dts                    DTS audio packetizer
+  ddummy                 Dummy decoder
+  ddummy                 Dump decoder
+  cvdsub                 CVD subtitle decoder
+  cvdsub                 Chaoji VCD subtitle packetizer
+  cdg                    CDG video decoder
+  cc                     Closed Captions decoder
+  araw                   Raw/Log Audio decoder
+  aes3                   AES3/SMPTE 302M audio decoder
+  aes3                   AES3/SMPTE 302M audio packetizer
+  adpcm                  ADPCM audio decoder
+  a52                    A/52 parser
+  a52                    A/52 audio packetizer
+  auhal                  HAL AudioUnit output
+  aout_file              File audio output
+  amem                   Audio memory output
+  adummy                 Dummy audio output
+  float32_mixer          Float32 audio mixer
+  fixed32_mixer          Fixed-point audio mixer
+  ugly_resampler         Nearest-neighbor audio resampler
+  trivial_channel_mixer  Audio filter for trivial channel mixing
+  spatializer            Audio Spatializer
+  simple_channel_mixer   Audio filter for simple channel mixing
+  scaletempo             Audio tempo scaler synched with rate
+  param_eq               Parametric Equalizer
+  normvol                Volume normalizer
+  mono                   Audio filter for stereo to mono conversion
+  karaoke                Simple Karaoke filter
+
+Plugin dylibs:
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libaccess_attachment_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libaccess_bd_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libaccess_ftp_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libaccess_http_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libaccess_imem_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libaccess_mms_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libaccess_rar_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libaccess_shm_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libaccess_tcp_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libaccess_udp_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libaccess_vdr_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libfilesystem_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libidummy_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/librtp_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libsdp_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libstream_filter_rar_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/access/libzip_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/altivec/libi420_yuy2_altivec_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/altivec/libmemcpyaltivec_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/liba52tospdif_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libaudio_format_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libaudiobargraph_a_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libchorus_flanger_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libcompressor_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libconverter_fixed_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libdolby_surround_decoder_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libdtstospdif_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libequalizer_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libheadphone_channel_mixer_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libkaraoke_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libmono_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libnormvol_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libparam_eq_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libscaletempo_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libsimple_channel_mixer_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libspatializer_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libtrivial_channel_mixer_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_filter/libugly_resampler_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_mixer/libfixed32_mixer_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_mixer/libfloat32_mixer_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_output/libadummy_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_output/libamem_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_output/libaout_file_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/audio_output/libauhal_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/liba52_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libadpcm_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libaes3_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libaraw_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libcc_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libcdg_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libcvdsub_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libddummy_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libdts_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libdvbsub_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libedummy_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/liblpcm_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libmpeg_audio_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/librawvideo_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libspudec_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libstl_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libsubsdec_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libsubsusf_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libsvcdsub_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libt140_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/codec/libtelx_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/control/libdummy_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/control/libgestures_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/control/libhotkeys_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/control/libmotion_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/control/libnetsync_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/control/liboldrc_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libaiff_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libasf_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libau_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libavi_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libdemux_cdg_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libdemux_stl_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libdemuxdump_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libdirac_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libes_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libflacsys_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libh264_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libimage_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libmjpeg_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libmp4_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libmpgv_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libnsc_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libnsv_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libnuv_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libplaylist_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libps_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libpva_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/librawaud_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/librawdv_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/librawvid_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libreal_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libsmf_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libsubtitle_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libtta_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libty_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libvc1_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libvobsub_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libvoc_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libwav_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/demux/libxa_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/gui/libncurses_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/meta_engine/libfolder_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/misc/libaudioscrobbler_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/misc/libexport_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/misc/liblogger_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/misc/libmemcpy_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/misc/libstats_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/packetizer/libpacketizer_dirac_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/packetizer/libpacketizer_flac_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/packetizer/libpacketizer_h264_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/packetizer/libpacketizer_mlp_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/packetizer/libpacketizer_mpeg4audio_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/packetizer/libpacketizer_mpeg4video_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/packetizer/libpacketizer_mpegvideo_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/packetizer/libpacketizer_vc1_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/services_discovery/libmediadirs_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/services_discovery/libpodcast_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/services_discovery/libsap_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/stream_filter/libdecomp_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/stream_filter/libstream_filter_dash_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/stream_filter/libstream_filter_record_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/text_renderer/libtdummy_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_chroma/libgrey_yuv_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_chroma/libi420_rgb_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_chroma/libi420_yuy2_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_chroma/libi422_i420_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_chroma/libi422_yuy2_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_chroma/librv32_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_chroma/libyuy2_i420_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_chroma/libyuy2_i422_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libadjust_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libalphamask_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libantiflicker_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libaudiobargraph_v_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libball_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libblend_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libblendbench_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libbluescreen_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libcanvas_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libchain_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libclone_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libcolorthres_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libcroppadd_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libdeinterlace_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libdynamicoverlay_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/liberase_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libextract_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libgaussianblur_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libgradfun_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libgradient_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libgrain_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libhqdn3d_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libinvert_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/liblogo_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libmagnify_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libmarq_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libmirror_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libmosaic_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libmotionblur_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libmotiondetect_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libosdmenu_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libposterize_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libpsychedelic_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libpuzzle_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libripple_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/librotate_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/librss_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libscale_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libscene_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libsepia_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libsharpen_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libsubsdelay_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libtransform_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libwall_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libwave_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_filter/libyuvp_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_output/libvdummy_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_output/libvmem_plugin.dylib
+dist/vlc-2.0.10-coretest/lib/vlc/plugins/video_output/libyuv_plugin.dylib
